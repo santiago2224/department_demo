@@ -16,4 +16,5 @@ Sub.destroy_all
   Sub.create(name: "#{x} #{y} #{z}")
 end
 puts "seeded #{Sub.all.size} Subs"
-puts "first sub name: #{Sub.first.name}"
+puts "first sub name: #{Sub.first.name}" 
+puts "hello"
